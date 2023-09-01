@@ -1,5 +1,5 @@
-
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,15 +19,15 @@
   <link href="/static/bootstrap.min.css" rel="stylesheet">
    
    
-  <link href=/static/venobox.css" rel="stylesheet">
-  <link href=/static/owl.carousel.min.css" rel="stylesheet">
-  <link href="/static/aos.css" rel="stylesheet">
+  <link href="{% static 'venobox.css' %}" rel="stylesheet">
+  <link href="{% static 'owl.carousel.min.css' %}" rel="stylesheet">
+  <link href="{% static 'aos.css' %}" rel="stylesheet">
    
 
   <!-- Template Main CSS File -->
-  <link href="/static/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="/static/https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="/static/https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" >
+  <link href="{% static 'style.css' %}" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" >
 
 </head>
 
@@ -43,15 +43,15 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="/static/akash2.png" alt="" class="img-fluid rounded-circle">
+        <img src="{% static 'akash2.png' %}" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">SHIVAM SHUKLA</a></h1>
         <div class="social-links mt-3 text-center">
            
           <a href="https://github.com/itshukla" class="facebook"><i class="fa fa-github"></i></a>
                <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
           <a href=" mailto:  imakash122@gmail.com.com" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-          <a href="https://instagram.com/mr_shuklaaa" class="instagram"><i class="fa fa-instagram"></i></a>
-          <a href="https://linkedin.com/in/itshukla" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="{% static 'https://instagram.com/mr_shuklaaa' %}" class="instagram"><i class="fa fa-instagram"></i></a>
+          <a href="{% static 'https://linkedin.com/in/itshukla' %}" class="linkedin"><i class="fa fa-linkedin"></i></a>
         </div>
       </div>
 
@@ -91,7 +91,7 @@
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="/static/akash2.png" class="img-fluid" alt="">
+            <img src="{% static 'akash2.png' %}" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>UI/UX Designer &amp; Web Developer.</h3>
@@ -370,19 +370,21 @@
   <a href="#" class="back-to-top"> <i class="fa fa-arrow-up" aria-hidden="true"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="/static/jquery.min.js"></script>
-  <script src="/static/bootstrap.bundle.min.js"></script>
-  <script src="/staticjquery.easing.min.js' %}"></script>
-  <script src="/static/validate.js"></script>
-  <script src="/static/jque/ry.waypoints.min.js"></script>
-  <script src="/static/counterup.min.js"></script>
-  <script src="/static/isotope.pkgd.min.js"></script>
-  <script src="/static/venobox.min.js"></script>
-  <script src="/static/owl.carousel.min.js"></script>
-  <script src="/static/typed.min.js"></script>
-  <script src="/static/aos.js"></script>
+  <script src="{% static 'jquery.min.js' %}"></script>
+  <script src="{% static 'bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'jquery.easing.min.js' %}"></script>
+  <script src="{% static 'validate.js' %}"></script>
+  <script src="{% static 'jquery.waypoints.min.js' %}"></script>
+  <script src="{% static 'counterup.min.js' %}"></script>
+  <script src="{% static 'isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'venobox.min.js' %}"></script>
+  <script src="{% static 'owl.carousel.min.js' %}"></script>
+  <script src="{% static 'typed.min.js' %}"></script>
+  <script src="{% static 'aos.js' %}"></script>
 
   <!-- Template Main JS File -->
-  <script src="/static/main.js"></script>
+  <script src="{% static 'main.js' %}"></script>
 
 </body>
+</html>
+
